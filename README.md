@@ -12,6 +12,9 @@ Tema white-dark para react js.
 #### `ncu -u`
 #### `npm --force install`
 
+### Go Live
+
+#### https://react-js-dark-theme.netlify.app
 
 ### Fonte
 https://levelup.gitconnected.com/dark-mode-in-react-533faaee3c6e
