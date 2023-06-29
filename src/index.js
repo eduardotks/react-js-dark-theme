@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ThemeContextWrapper from './theme/ThemeWrapper';
+import ThemeContextWrapper from './wrapper/ThemeWrapper';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ThemeTela from "./views/theme/ThemeTela";
+import Home from "./views/home/Home";
 
 ReactDOM.render(
   <ThemeContextWrapper>
     <React.StrictMode>
-      <App />
+      <Home />
     </React.StrictMode>{' '}
   </ThemeContextWrapper>,
   document.getElementById('root'),
